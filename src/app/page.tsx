@@ -66,7 +66,7 @@ export default function WorkersPage() {
           setWorkersData(json.data);
           cacheRef.current = json.data;
         }
-      } catch (err: any) {
+      } catch {
         setError("Failed to load workers. Please try again later.");
         setWorkersData([]);
       } finally {

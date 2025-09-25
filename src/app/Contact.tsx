@@ -25,18 +25,18 @@ export default function Contact() {
         </h1>
         <section className="mb-10 text-center">
           <p className="text-lg text-gray-700 mb-2">
-            We'd love to hear from you! Whether you have a question, feedback,
-            or need support, our team is here to help.
+            We&apos;d love to hear from you! Whether you have a question,
+            feedback, or need support, our team is here to help.
           </p>
           <p className="text-base text-gray-600">
-            Fill out the form below and we'll get back to you as soon as
+            Fill out the form below and we&apos;ll get back to you as soon as
             possible.
           </p>
         </section>
         <section className="bg-white rounded-2xl shadow-lg p-8 border border-gray-100">
           {submitted ? (
             <div className="text-center text-green-600 font-semibold text-lg py-8">
-              Thank you for reaching out! We'll get back to you soon.
+              Thank you for reaching out! We&apos;ll get back to you soon.
             </div>
           ) : (
             <form onSubmit={handleSubmit} className="flex flex-col gap-5">
